@@ -51,12 +51,45 @@ h2{
   font-family: fantasy;
 }
 h1{
-font-family:"Miama.ttf";
+font-family:"Miama";
 }
 img{
-  width:600px
+  width:800px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
-
+.intro{
+  box-sizing: border-box;
+  border:none;
+  height: 600px;
+  color: #222629;
+  padding: 130px;
+  text-align: center;
+  font-size: larger;
+  width: 600px;
+  float: right;
+}
+#gallery{
+  box-sizing: border-box;
+  border:none;
+  background-color: #772D49;
+  color: seashell;
+  box-shadow: 2px 2px 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: fit-content;
+  text-decoration: none;
+  float: right;
+  clear: both;
+  position: relative;
+  right: 250px;
+  bottom: 100px;
+}
+#gallery:hover{
+  background-color: silver;
+  color: black;
+}
 
 
 
