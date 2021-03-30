@@ -1,5 +1,5 @@
 @font-face{
-  font-family: "Miama";
+  font-family:"Miama";
   src: url("Miama.otf");
   }
 .nav {
@@ -93,7 +93,7 @@ img{
 .bottom{
   box-sizing: content-box;
   border: seashell;
-  height: 667px;
+  height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/08/resort-night-time-1080x608.jpg");
@@ -101,10 +101,12 @@ img{
 }
 footer{
   box-sizing: border-box;
+  overflow: hidden;
   border: none;
-  height: fit-content;
+  height: 200px;
   background-color: #371320;
   color: seashell;
+  
 }
 .socials{
   display: flex;
@@ -112,27 +114,28 @@ footer{
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  top: 70px;
+  bottom: 100px;
   
 }
 .socials img{
   height: 50px;
   width: 50px;
-  position: relative;
 }
 .bottomnav{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  float: right;
-  padding-top: 50px;
   font-size: larger;
 }
+.bottomnav a{
+  color: seashell;
+}
+.bottomnav a:hover{
+  color: black;
+}
 .info{
-  position: relative;
-  bottom: 50px;
   font-size: larger;
-  padding-left: 20px;
+  float: right;
+  position: relative;
+  bottom: 230px;
+
 }
 
 
