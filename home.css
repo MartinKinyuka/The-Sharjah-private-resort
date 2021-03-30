@@ -99,7 +99,23 @@ img{
   background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/08/resort-night-time-1080x608.jpg");
   margin-top: 20px;
 }
-
+footer{
+  box-sizing: border-box;
+  border: none;
+  height: fit-content;
+  background-color: #371320;
+  color: seashell;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.socials img{
+  height: 50px;
+  width: 50px;
+}
 
 
 
