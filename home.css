@@ -1,0 +1,43 @@
+.nav {
+  float: right;
+  overflow: hidden;
+}
+
+.nav a {
+  
+  color: #371320 ;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  box-sizing: border-box;
+  border:3px solid #515454 ;
+  border-radius: 5px;
+
+}
+
+
+.nav a:hover {
+  background-color: #F21166 ;
+  color: black;
+}
+
+
+.nav a.active {
+  background-color: #772D49 ;
+  color: white;
+}
+body{
+  background-color:#3ECAC0 ;
+}
+h2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  color: #371320;
+  font-family: fantasy;
+}
+img{
+  width:600px
+}
