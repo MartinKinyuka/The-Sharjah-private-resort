@@ -90,6 +90,15 @@ img{
   background-color: silver;
   color: black;
 }
+.bottom{
+  box-sizing: content-box;
+  border: seashell;
+  height: 667px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/08/resort-night-time-1080x608.jpg");
+  margin-top: 20px;
+}
 
 
 
