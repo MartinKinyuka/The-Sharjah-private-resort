@@ -111,10 +111,28 @@ footer{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
+  top: 70px;
+  
 }
 .socials img{
   height: 50px;
   width: 50px;
+  position: relative;
+}
+.bottomnav{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  float: right;
+  padding-top: 50px;
+  font-size: larger;
+}
+.info{
+  position: relative;
+  bottom: 50px;
+  font-size: larger;
+  padding-left: 20px;
 }
 
 
